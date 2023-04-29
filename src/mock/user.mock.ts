@@ -21,5 +21,14 @@ export const userMock: User = {
       orderNumber: 1,
       reward: 'Ganhe 30 moedas',
     },
+    {
+      expiresAt: new Date('2023-05-01').toISOString(),
+      goal: 'Colete 20 latinhas de alumínio',
+      hasExpired: false,
+      hasWon: false,
+      isLocked: false,
+      orderNumber: 1,
+      reward: 'Ganhe 20 moedas',
+    },
   ],
 };
