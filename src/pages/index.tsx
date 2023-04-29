@@ -4,26 +4,16 @@ import styles from '@/styles/Home.module.css';
 import { useState } from 'react';
 import HeaderComponent from '@/components/Header';
 import ScheduleNotifications from '@/components/ScheduleNotifications';
+import { userMock } from '@/mock/user.mock';
+import { User } from '@/types/User';
 
-const inter = Poppins({
+const poppins = Poppins({
   subsets: ['latin'],
   weight: ['100', '300', '400', '700'],
 });
 
-export interface UserProps {
-  firstName: string;
-  username: string;
-  coinAmount: number;
-  collectArea: string;
-}
-
 export default function Home() {
-  const [loggedUser, setLoggedUser] = useState<UserProps>({
-    firstName: 'Ricardo',
-    username: 'ricardo.lemos',
-    coinAmount: 3000,
-    collectArea: 'SCR-1203',
-  });
+  const [loggedUser, setLoggedUser] = useState<User>(userMock);
 
   return (
     <>
@@ -33,7 +23,7 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${styles.main} ${poppins.className}`}>
         <HeaderComponent loggedUser={loggedUser} />
         <ScheduleNotifications
           scheduledDates={[

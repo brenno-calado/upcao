@@ -1,0 +1,44 @@
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.data {
+  font-weight: 700;
+}
+
+.divider {
+  border-right: 1px solid white;
+  margin: 0 1rem 0 0;
+}
+
+.leftSideHeader {
+  flex-grow: 1;
+}
+
+.profileHeader {
+  padding: 4rem 24px;
+  background-color: #9b5b7d;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profileTextColor {
+  color: white;
+}
+
+.statsArea {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.smallText {
+  font-size: small;
+  font-weight: 100;
+}

@@ -8,7 +8,7 @@ export default function CoinDisplay(props: CoinProps) {
   return (
     <div className={`${styles.coinDisplay}`}>
       <img src='/coin.svg' height={32} width={32} />
-      <span>{props.coinAmount}</span>
+      <span className={`${styles.data}`}>{props.coinAmount}</span>
     </div>
   );
 }
