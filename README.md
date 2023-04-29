@@ -49,7 +49,14 @@
 
 <img src="images/walkthrough.gif" alt="Logo" width="300px">
 
-Uma plataforma que engaja mais pessoas para fazer reciclagem, transformando o que seria rejeito em materia prima apoiando empreendedores visionários que enxergam o upcycle como uma grande oportunidade de negócios.
+Uma plataforma que engaja mais pessoas para fazer reciclagem, transformando o que seria rejeito em materia prima apoiando empreendedores visionários que enxergam o upcycle como uma grande oportunidade de negócios. Link para o Figma [aqui](https://www.figma.com/file/90HdsqWmILdnO8xeB9G0Hp/Up%C3%A7%C3%A3o?type=design&node-id=6%3A4&t=7llN8wXoVClU9KBY-1)
+
+## Time
+Brenno Calado - Desenvolvedor
+Mayara Silva da Rocha - Designer
+Gabriel Caetano - Desenvolvedor
+Iasmin Novaes - Designer
+Sara Galvão - Designer
 
 <p align="right">(<a href="#top">voltar ao topo</a>)</p>
 
