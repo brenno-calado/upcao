@@ -1,6 +1,6 @@
-import { UserProps } from '@/pages';
-import Image from 'next/image';
-import styles from '@/styles/Home.module.css';
+import Image from "next/image";
+import styles from "@/styles/Home.module.css";
+import { User } from "@/types/User";
 
 export interface ScheduledDate {
   date: Date;
@@ -10,7 +10,7 @@ export interface ScheduledDate {
 export default function ScheduleNotifications({
   scheduledDates,
 }: {
-  loggedUser: UserProps;
+  loggedUser: User;
   scheduledDates: ScheduledDate[];
 }) {
   return (
@@ -23,8 +23,8 @@ export default function ScheduleNotifications({
         o coletor irá passar em sua rua:
       </p>
       <Image
-        src={'/calendar.png'}
-        alt='calendar example'
+        src={"/calendar.png"}
+        alt="calendar example"
         width={300}
         height={250}
       />
